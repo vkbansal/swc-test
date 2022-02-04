@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": ["dom", "dom.iterable"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "error",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@moduleA/*": ["modules/01-moduleA/*"],
+      "@moduleB/*": ["modules/02-moduleB/*"]
+    }
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules"]
+}
